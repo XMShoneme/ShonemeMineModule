@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		38F3992D809A88E4504B9BD8 /* libPods-ShonemeMineModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F582040AD67A833868C56DA /* libPods-ShonemeMineModule.a */; };
-		A434A7F91EC196D700C0F784 /* MineMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A434A7F81EC196D700C0F784 /* MineMainVC.m */; };
-		A434A7FC1EC199D500C0F784 /* Target_XMMineMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A434A7FB1EC199D500C0F784 /* Target_XMMineMainVC.m */; };
+		A434A8021EC19BF700C0F784 /* MineMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A434A7FF1EC19BF700C0F784 /* MineMainVC.m */; };
+		A434A8031EC19BF700C0F784 /* Target_XMMineMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A434A8011EC19BF700C0F784 /* Target_XMMineMainVC.m */; };
 		A4783E241EC037D500B464E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E231EC037D500B464E1 /* main.m */; };
 		A4783E271EC037D500B464E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E261EC037D500B464E1 /* AppDelegate.m */; };
 		A4783E2A1EC037D500B464E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E291EC037D500B464E1 /* ViewController.m */; };
@@ -41,10 +41,10 @@
 		0F582040AD67A833868C56DA /* libPods-ShonemeMineModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShonemeMineModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA2075CA421AAF01A20F0AD /* Pods-ShonemeMineModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShonemeMineModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShonemeMineModule/Pods-ShonemeMineModule.release.xcconfig"; sourceTree = "<group>"; };
 		91CBC19F4A25B07A9437B69F /* Pods-ShonemeMineModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShonemeMineModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShonemeMineModule/Pods-ShonemeMineModule.debug.xcconfig"; sourceTree = "<group>"; };
-		A434A7F71EC196D700C0F784 /* MineMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineMainVC.h; sourceTree = "<group>"; };
-		A434A7F81EC196D700C0F784 /* MineMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineMainVC.m; sourceTree = "<group>"; };
-		A434A7FA1EC199D500C0F784 /* Target_XMMineMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_XMMineMainVC.h; sourceTree = "<group>"; };
-		A434A7FB1EC199D500C0F784 /* Target_XMMineMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_XMMineMainVC.m; sourceTree = "<group>"; };
+		A434A7FE1EC19BF700C0F784 /* MineMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineMainVC.h; sourceTree = "<group>"; };
+		A434A7FF1EC19BF700C0F784 /* MineMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineMainVC.m; sourceTree = "<group>"; };
+		A434A8001EC19BF700C0F784 /* Target_XMMineMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_XMMineMainVC.h; sourceTree = "<group>"; };
+		A434A8011EC19BF700C0F784 /* Target_XMMineMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_XMMineMainVC.m; sourceTree = "<group>"; };
 		A4783E1F1EC037D500B464E1 /* ShonemeMineModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShonemeMineModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4783E231EC037D500B464E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4783E251EC037D500B464E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,12 +100,20 @@
 		A434A7AA1EC18ED700C0F784 /* XMMine */ = {
 			isa = PBXGroup;
 			children = (
-				A434A7F71EC196D700C0F784 /* MineMainVC.h */,
-				A434A7F81EC196D700C0F784 /* MineMainVC.m */,
-				A434A7FA1EC199D500C0F784 /* Target_XMMineMainVC.h */,
-				A434A7FB1EC199D500C0F784 /* Target_XMMineMainVC.m */,
+				A434A7FD1EC19BDC00C0F784 /* VC */,
 			);
 			path = XMMine;
+			sourceTree = "<group>";
+		};
+		A434A7FD1EC19BDC00C0F784 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				A434A7FE1EC19BF700C0F784 /* MineMainVC.h */,
+				A434A7FF1EC19BF700C0F784 /* MineMainVC.m */,
+				A434A8001EC19BF700C0F784 /* Target_XMMineMainVC.h */,
+				A434A8011EC19BF700C0F784 /* Target_XMMineMainVC.m */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 		A4783E161EC037D500B464E1 = {
@@ -370,9 +378,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4783E2A1EC037D500B464E1 /* ViewController.m in Sources */,
-				A434A7FC1EC199D500C0F784 /* Target_XMMineMainVC.m in Sources */,
+				A434A8031EC19BF700C0F784 /* Target_XMMineMainVC.m in Sources */,
 				A4783E271EC037D500B464E1 /* AppDelegate.m in Sources */,
-				A434A7F91EC196D700C0F784 /* MineMainVC.m in Sources */,
+				A434A8021EC19BF700C0F784 /* MineMainVC.m in Sources */,
 				A4783E241EC037D500B464E1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
