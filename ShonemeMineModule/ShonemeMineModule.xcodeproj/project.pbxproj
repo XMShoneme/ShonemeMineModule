@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38F3992D809A88E4504B9BD8 /* libPods-ShonemeMineModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F582040AD67A833868C56DA /* libPods-ShonemeMineModule.a */; };
+		A434A7F91EC196D700C0F784 /* MineMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A434A7F81EC196D700C0F784 /* MineMainVC.m */; };
+		A434A7FC1EC199D500C0F784 /* Target_XMMineMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A434A7FB1EC199D500C0F784 /* Target_XMMineMainVC.m */; };
 		A4783E241EC037D500B464E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E231EC037D500B464E1 /* main.m */; };
 		A4783E271EC037D500B464E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E261EC037D500B464E1 /* AppDelegate.m */; };
 		A4783E2A1EC037D500B464E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E291EC037D500B464E1 /* ViewController.m */; };
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F582040AD67A833868C56DA /* libPods-ShonemeMineModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShonemeMineModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA2075CA421AAF01A20F0AD /* Pods-ShonemeMineModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShonemeMineModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShonemeMineModule/Pods-ShonemeMineModule.release.xcconfig"; sourceTree = "<group>"; };
+		91CBC19F4A25B07A9437B69F /* Pods-ShonemeMineModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShonemeMineModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShonemeMineModule/Pods-ShonemeMineModule.debug.xcconfig"; sourceTree = "<group>"; };
+		A434A7F71EC196D700C0F784 /* MineMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineMainVC.h; sourceTree = "<group>"; };
+		A434A7F81EC196D700C0F784 /* MineMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineMainVC.m; sourceTree = "<group>"; };
+		A434A7FA1EC199D500C0F784 /* Target_XMMineMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_XMMineMainVC.h; sourceTree = "<group>"; };
+		A434A7FB1EC199D500C0F784 /* Target_XMMineMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_XMMineMainVC.m; sourceTree = "<group>"; };
 		A4783E1F1EC037D500B464E1 /* ShonemeMineModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShonemeMineModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4783E231EC037D500B464E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4783E251EC037D500B464E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F3992D809A88E4504B9BD8 /* libPods-ShonemeMineModule.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +89,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A23092C8D231A6C8A89B0626 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F582040AD67A833868C56DA /* libPods-ShonemeMineModule.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A434A7AA1EC18ED700C0F784 /* XMMine */ = {
 			isa = PBXGroup;
 			children = (
+				A434A7F71EC196D700C0F784 /* MineMainVC.h */,
+				A434A7F81EC196D700C0F784 /* MineMainVC.m */,
+				A434A7FA1EC199D500C0F784 /* Target_XMMineMainVC.h */,
+				A434A7FB1EC199D500C0F784 /* Target_XMMineMainVC.m */,
 			);
 			path = XMMine;
 			sourceTree = "<group>";
@@ -92,6 +115,8 @@
 				A4783E3B1EC037D500B464E1 /* ShonemeMineModuleTests */,
 				A4783E461EC037D500B464E1 /* ShonemeMineModuleUITests */,
 				A4783E201EC037D500B464E1 /* Products */,
+				E43288B859837C117708C1F8 /* Pods */,
+				A23092C8D231A6C8A89B0626 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +173,15 @@
 			path = ShonemeMineModuleUITests;
 			sourceTree = "<group>";
 		};
+		E43288B859837C117708C1F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91CBC19F4A25B07A9437B69F /* Pods-ShonemeMineModule.debug.xcconfig */,
+				1CA2075CA421AAF01A20F0AD /* Pods-ShonemeMineModule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4783E4C1EC037D500B464E1 /* Build configuration list for PBXNativeTarget "ShonemeMineModule" */;
 			buildPhases = (
+				E04C7C8655974AEA5561DE4B /* [CP] Check Pods Manifest.lock */,
 				A4783E1B1EC037D500B464E1 /* Sources */,
 				A4783E1C1EC037D500B464E1 /* Frameworks */,
 				A4783E1D1EC037D500B464E1 /* Resources */,
+				2E17C524866FB04DDC35E2D8 /* [CP] Embed Pods Frameworks */,
+				6E9D74DC3D390DA002909FC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,13 +316,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E17C524866FB04DDC35E2D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShonemeMineModule/Pods-ShonemeMineModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E9D74DC3D390DA002909FC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShonemeMineModule/Pods-ShonemeMineModule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E04C7C8655974AEA5561DE4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4783E1B1EC037D500B464E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A4783E2A1EC037D500B464E1 /* ViewController.m in Sources */,
+				A434A7FC1EC199D500C0F784 /* Target_XMMineMainVC.m in Sources */,
 				A4783E271EC037D500B464E1 /* AppDelegate.m in Sources */,
+				A434A7F91EC196D700C0F784 /* MineMainVC.m in Sources */,
 				A4783E241EC037D500B464E1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +520,7 @@
 		};
 		A4783E4D1EC037D500B464E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91CBC19F4A25B07A9437B69F /* Pods-ShonemeMineModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8DQR5VT4B3;
@@ -445,6 +533,7 @@
 		};
 		A4783E4E1EC037D500B464E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA2075CA421AAF01A20F0AD /* Pods-ShonemeMineModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8DQR5VT4B3;
