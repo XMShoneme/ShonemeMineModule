@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint ShoneMineModule.podspec' to ensure this is a
+#  Be sure to run `pod spec lint ShonemeMineModule.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "ShoneMineModule"
-  s.version      = "1.0.1"
-  s.summary      = "ShoneMineModule."
+  s.name         = "ShonemeMineModule"
+  s.version      = "1.0.2"
+  s.summary      = "ShonemeMineModule."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
    s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
-   s.ios.deployment_target = "5.0"
+  # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ShonemeMineModule/ShonemeMineModule/XMMine/**/*.{h,m}"
+  s.source_files  ="ShonemeMineModule/ShonemeMineModule/XMMine/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -133,6 +133,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "XMBaseObjectModule"
+  # s.dependency "XMBaseObjectModule"
 
 end
