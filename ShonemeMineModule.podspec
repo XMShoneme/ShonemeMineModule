@@ -98,6 +98,11 @@ Pod::Spec.new do |s|
     vc.source_files = 'ShonemeMineModule/ShonemeMineModule/XMMine/VC/*.{h,m}'
   end
 
+   s.subspec 'Actions' do |actions|
+    actions.source_files = 'ShonemeMineModule/ShonemeMineModule/XMMine/Actions/*.{h,m}'
+  end
+
+
 
   # s.public_header_files = "Classes/**/*.h"
 
