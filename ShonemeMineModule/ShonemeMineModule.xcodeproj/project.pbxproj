@@ -78,6 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A434A7AA1EC18ED700C0F784 /* XMMine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XMMine;
+			sourceTree = "<group>";
+		};
 		A4783E161EC037D500B464E1 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +108,7 @@
 		A4783E211EC037D500B464E1 /* ShonemeMineModule */ = {
 			isa = PBXGroup;
 			children = (
+				A434A7AA1EC18ED700C0F784 /* XMMine */,
 				A4783E251EC037D500B464E1 /* AppDelegate.h */,
 				A4783E261EC037D500B464E1 /* AppDelegate.m */,
 				A4783E281EC037D500B464E1 /* ViewController.h */,
@@ -516,6 +524,7 @@
 				A4783E4E1EC037D500B464E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4783E4F1EC037D500B464E1 /* Build configuration list for PBXNativeTarget "ShonemeMineModuleTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				A4783E511EC037D500B464E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4783E521EC037D500B464E1 /* Build configuration list for PBXNativeTarget "ShonemeMineModuleUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				A4783E541EC037D500B464E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
