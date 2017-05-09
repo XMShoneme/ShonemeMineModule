@@ -100,6 +100,7 @@ Pod::Spec.new do |s|
 
    s.subspec 'Actions' do |actions|
     actions.source_files = 'ShonemeMineModule/ShonemeMineModule/XMMine/Actions/*.{h,m}'
+    actions.dependency 'ShonemeMineModule/VC'
   end
 
 
