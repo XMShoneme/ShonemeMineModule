@@ -99,7 +99,7 @@ Pod::Spec.new do |s|
   end
 
    s.subspec 'Targets' do |targets|
-    targets.source_files = 'ShonemeMineModule/ShonemeMineModule/XMMine/Actions/*.{h,m}'
+    targets.source_files = 'ShonemeMineModule/ShonemeMineModule/XMMine/Targets/*.{h,m}'
     targets.dependency 'ShonemeMineModule/VC'
   end
 
