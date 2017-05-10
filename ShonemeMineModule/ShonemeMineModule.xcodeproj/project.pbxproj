@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		38F3992D809A88E4504B9BD8 /* libPods-ShonemeMineModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F582040AD67A833868C56DA /* libPods-ShonemeMineModule.a */; };
 		A434A8021EC19BF700C0F784 /* MineMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A434A7FF1EC19BF700C0F784 /* MineMainVC.m */; };
-		A434A8511EC1CF0300C0F784 /* Target_XMMineMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A434A8501EC1CF0300C0F784 /* Target_XMMineMainVC.m */; };
 		A4783E241EC037D500B464E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E231EC037D500B464E1 /* main.m */; };
 		A4783E271EC037D500B464E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E261EC037D500B464E1 /* AppDelegate.m */; };
 		A4783E2A1EC037D500B464E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E291EC037D500B464E1 /* ViewController.m */; };
@@ -18,6 +17,7 @@
 		A4783E321EC037D500B464E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4783E301EC037D500B464E1 /* LaunchScreen.storyboard */; };
 		A4783E3D1EC037D500B464E1 /* ShonemeMineModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E3C1EC037D500B464E1 /* ShonemeMineModuleTests.m */; };
 		A4783E481EC037D500B464E1 /* ShonemeMineModuleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E471EC037D500B464E1 /* ShonemeMineModuleUITests.m */; };
+		A49ADA7D1EC29FA6002B9D6D /* Target_XMMineMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A49ADA7C1EC29FA6002B9D6D /* Target_XMMineMainVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +43,6 @@
 		91CBC19F4A25B07A9437B69F /* Pods-ShonemeMineModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShonemeMineModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShonemeMineModule/Pods-ShonemeMineModule.debug.xcconfig"; sourceTree = "<group>"; };
 		A434A7FE1EC19BF700C0F784 /* MineMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineMainVC.h; sourceTree = "<group>"; };
 		A434A7FF1EC19BF700C0F784 /* MineMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineMainVC.m; sourceTree = "<group>"; };
-		A434A84F1EC1CF0300C0F784 /* Target_XMMineMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_XMMineMainVC.h; sourceTree = "<group>"; };
-		A434A8501EC1CF0300C0F784 /* Target_XMMineMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_XMMineMainVC.m; sourceTree = "<group>"; };
 		A4783E1F1EC037D500B464E1 /* ShonemeMineModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShonemeMineModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4783E231EC037D500B464E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4783E251EC037D500B464E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +59,8 @@
 		A4783E431EC037D500B464E1 /* ShonemeMineModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShonemeMineModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4783E471EC037D500B464E1 /* ShonemeMineModuleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShonemeMineModuleUITests.m; sourceTree = "<group>"; };
 		A4783E491EC037D500B464E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49ADA7B1EC29FA6002B9D6D /* Target_XMMineMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_XMMineMainVC.h; sourceTree = "<group>"; };
+		A49ADA7C1EC29FA6002B9D6D /* Target_XMMineMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_XMMineMainVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 		A434A7AA1EC18ED700C0F784 /* XMMine */ = {
 			isa = PBXGroup;
 			children = (
-				A434A84E1EC1CEEB00C0F784 /* Actions */,
+				A49ADA7A1EC29FA6002B9D6D /* Targets */,
 				A434A7FD1EC19BDC00C0F784 /* VC */,
 			);
 			path = XMMine;
@@ -113,15 +113,6 @@
 				A434A7FF1EC19BF700C0F784 /* MineMainVC.m */,
 			);
 			path = VC;
-			sourceTree = "<group>";
-		};
-		A434A84E1EC1CEEB00C0F784 /* Actions */ = {
-			isa = PBXGroup;
-			children = (
-				A434A84F1EC1CF0300C0F784 /* Target_XMMineMainVC.h */,
-				A434A8501EC1CF0300C0F784 /* Target_XMMineMainVC.m */,
-			);
-			path = Actions;
 			sourceTree = "<group>";
 		};
 		A4783E161EC037D500B464E1 = {
@@ -187,6 +178,15 @@
 				A4783E491EC037D500B464E1 /* Info.plist */,
 			);
 			path = ShonemeMineModuleUITests;
+			sourceTree = "<group>";
+		};
+		A49ADA7A1EC29FA6002B9D6D /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				A49ADA7B1EC29FA6002B9D6D /* Target_XMMineMainVC.h */,
+				A49ADA7C1EC29FA6002B9D6D /* Target_XMMineMainVC.m */,
+			);
+			path = Targets;
 			sourceTree = "<group>";
 		};
 		E43288B859837C117708C1F8 /* Pods */ = {
@@ -386,7 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4783E2A1EC037D500B464E1 /* ViewController.m in Sources */,
-				A434A8511EC1CF0300C0F784 /* Target_XMMineMainVC.m in Sources */,
+				A49ADA7D1EC29FA6002B9D6D /* Target_XMMineMainVC.m in Sources */,
 				A4783E271EC037D500B464E1 /* AppDelegate.m in Sources */,
 				A434A8021EC19BF700C0F784 /* MineMainVC.m in Sources */,
 				A4783E241EC037D500B464E1 /* main.m in Sources */,
